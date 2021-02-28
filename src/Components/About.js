@@ -13,61 +13,11 @@ class About extends React.Component {
           <Col md={6} className='text-left order-2 order-md-1 order-lg-1 order-xl-1'>
             <p>
               After my Bachelors in Electronics and communication from Kannur University, I joined Anntech Offshore Engineering Pvt. Ltd. as an HR manager, in the Industrial Automation sector. I worked here for more than a year, in different capacities, before starting a company of my own in the same sector. This introduced me to more new experiences like negotiations, account management etc. All these experiences made me want to learn more about business administration and management, which led me to ESCP Business School. 
-After I joined ESCP Business School, I learned more about the basics of management. Being able to relate what I learn to what I had done made the courses more interesting. Moreover, this helped me understand how I could have done better in the past and how I could apply my experiences to new situations. Currently I am looking cross-functional roles that would help me put this knowledge into action.
             </p>
             <p>
+                After I joined ESCP Business School, I learned more about the basics of management. Being able to relate what I learn to what I had done made the courses more interesting. Moreover, this helped me understand how I could have done better in the past and how I could apply my experiences to new situations. Currently I am looking cross-functional roles that would help me put this knowledge into action.
+            </p>
 
-            </p>
-            {/*<p>
-              Technologies I am working on:
-            </p>
-            <ul className='row'>
-              <Col xs={6} sm={6} md={6} lg={4}>
-                <li>Java</li>
-              </Col>
-              <Col xs={6} sm={6} md={6} lg={4}>
-                <li>JavaScript</li>
-              </Col>
-              <Col xs={6} sm={6} md={6} lg={4}>
-                <li>Python</li>
-              </Col>
-              <Col xs={6} sm={6} md={6} lg={4}>
-                <li>TypeScript</li>
-              </Col>
-              <Col xs={6} sm={6} md={6} lg={4}>
-                <li>React.js</li>
-              </Col>
-              <Col xs={6} sm={6} md={6} lg={4}>
-                <li>Node.js</li>
-              </Col>
-              <Col xs={6} sm={6} md={6} lg={4}>
-                <li>AWS</li>
-              </Col>
-              <Col xs={6} sm={6} md={6} lg={4}>
-                <li>SQL</li>
-              </Col>
-              <Col xs={6} sm={6} md={6} lg={4}>
-                <li>NoSQL</li>
-              </Col>
-              <Col xs={6} sm={6} md={6} lg={4}>
-                <li>HTML</li>
-              </Col>
-              <Col xs={6} sm={6} md={6} lg={4}>
-                <li>CSS</li>
-              </Col>
-              <Col xs={6} sm={6} md={6} lg={4}>
-                <li>JQuery</li>
-              </Col>
-              <Col xs={6} sm={6} md={6} lg={4}>
-                <li>Bootstrap</li>
-              </Col>
-              <Col xs={6} sm={6} md={6} lg={4}>
-                <li>NumPy</li>
-              </Col>
-              <Col xs={6} sm={6} md={6} lg={4}>
-                <li>Git</li>
-              </Col>
-  </ul>*/}
           </Col>
           <Col md={6} className='order-1 order-md-2 order-lg-2 order-xl-2 my-auto'>
             <img className='photo' src={profile} alt='profile'/>

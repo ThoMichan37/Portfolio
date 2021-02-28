@@ -33,7 +33,12 @@
         height: 200px;
     }
 }
-
+#projects .MuiTabs-flexContainer {
+  justify-content: center;
+}
+/*.MuiTabs-indicator{*/
+/*    padding-left: 100px;*/
+/*}*/
 @media (min-width: 1200px) {
     .project-img {
         height: 250px;

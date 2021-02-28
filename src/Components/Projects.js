@@ -30,8 +30,7 @@ function Projects() {
             const projectData = projects[projectKey];
 
             return <TabPanel key={id} value={tabValue} index={id}>
-                {ProjectContent(projectData.name, GetProjectImage[projectData.image], projectData.githubLink, projectData.websiteLink,
-                    projectData.body, projectData.imagePosition)}
+                {ProjectContent(projectData.name, projectData.body)}
             </TabPanel>
         })
     }
@@ -39,7 +38,7 @@ function Projects() {
     return (
         <div className='spacing container' id='projects'>
             <h1>EXTRA CURRICULAR ACTIVITIES & PERSONAL INTERESTS</h1>
-            <AppBar position="static" color={"transparent"} >
+            <AppBar position="static" color={"transparent"}>
 
                 <Tabs
                     value={tabValue}
