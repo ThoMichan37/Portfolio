@@ -1,8 +1,8 @@
 import React from 'react';
 import {Navbar, Nav} from "react-bootstrap";
-import logo from "../logo.png";
+import logo from "../t.png";
 import './../css/NavBar.css';
-import pdf from '../files/Vinay_Resume.pdf'
+import pdf from '../files/TOM RESUME.docx'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faDownload} from "@fortawesome/free-solid-svg-icons";
 

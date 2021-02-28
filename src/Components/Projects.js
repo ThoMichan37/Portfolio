@@ -46,7 +46,7 @@ function Projects() {
 
     return (
         <div className='spacing container' id='projects'>
-            <h1>My Projects</h1>
+            <h1>EXTRA CURRICULAR ACTIVITIES & PERSONAL INTERESTS</h1>
             <AppBar position="static" color={"transparent"} >
                 <Tabs
                     value={tabValue}

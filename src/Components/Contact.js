@@ -10,29 +10,37 @@ class Contact extends React.Component {
       <div id='contact' className='spacing'>
         <h1>Contact</h1>
 
-        <p className="mt-5 mb-4">I am currently looking for Full-time opportunities starting May 2021. My inbox is always open, even for just a 'Hi'.</p>
+        <p className="mt-5 mb-4">I AM CURRENTLY LOOKING FOR FULL-TIME OPPORTUNITIES STARTING MAY 2021. MY INBOX IS ALWAYS OPEN, EVEN FOR JUST A 'HI'.</p>
 
         <Message message='Message Me' />
 
-        <p className="mt-5 mb-4">Or, you can connect with me on my social media!</p>
+        <p className="mt-5 mb-4">you can connect with me on my social media!</p>
 
         <div className="text-center align-items-lg-center">
-          <a
+         {/* <a
             className="github"
             href="https://github.com/vinay-sj"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FontAwesomeIcon icon={faGithub} size="2x" className='mr-2'/>
-          </a>
+          </a>*/}
           <a
             className="github"
-            href="https://www.linkedin.com/in/vinaysj"
+            href="https://www.linkedin.com/in/tom-babu-296702114"
             target="_blank"
             rel="noopener noreferrer"
           >
             <FontAwesomeIcon icon={faLinkedin} size="2x" className='mr-2'/>
           </a>
+
+        </div>
+		<p className="mt-5 mb-4">Or, you can connect call me!</p>
+
+        <div className="text-center align-items-lg-center">
+       
+        <p className="mt-5 mb-4">+33-754066147</p>
+           
 
         </div>
       </div>

@@ -12,61 +12,89 @@ class Experiences extends React.Component {
                   <Row>
                     {/*<>*/}
                     <Col md={8}>
-                      <h4 className='text-left'>Front-End Developer Intern <span className='company-name'>@QuantUniversity</span></h4>
+                      <h4 className='company-name'>St. JOSEPH SYSTEMS AND CONTROL LLP</h4>
+                    </Col>
+					 <Col md={8}>
+                      <h4 className='text-left'>Co-Founder/Director </h4>
                     </Col>
                     <Col md={4}>
-                      <div className="text-left text-md-right text-lg-right text-xl-right">January, 2021 - Present</div>
+                        {/* <div className="text-left text-md-right text-lg-right text-xl-right">November, 2017 - August, 2019</div>*/}
                     </Col>
                   </Row>
                   <ul className='text-left'>
                     <li>
-                      Building and updating websites using Javascript and Angular JS
+                      Co-Founded the company.
                     </li>
                     <li>
-                      Developed REST APIs to work with backend infrastructure
+                      Studied the market and planned operations accordingly to create a reasonable and profitable quotation for negotiations.
+                    </li>
+					<li>
+                      Met with potential clients to pitch and conduct presentations to acquire new projects.
+                    </li>
+					<li>
+                      Successfully completed the awarded project well within the specified time.
                     </li>
                   </ul>
                 </li>
                 <li>
                   <Row>
                       <Col md={8}>
-                  <h4 className='text-left'>Software Engineer Intern <span className='company-name'>@Vistan Health</span></h4>
+                  <h4 className='company-name'> ANNTECH OFFSHORE ENGINEERING PVT LTD</h4>
+                      </Col>
+					     <Col md={8}>
+                  <h4 className='text-left'>ADMINISTRATOR </h4>
                       </Col>
                       <Col md={4}>
-                  <div className="text-left text-md-right text-lg-right text-xl-right">May, 2020 - August, 2020</div>
+                  {/*<div className="text-left text-md-right text-lg-right text-xl-right">May, 2020 - August, 2020</div>*/}
                     </Col>
                   </Row>
                   <ul className='text-left'>
                     <li>
-                      Contributed as a Full Stack Developer to develop a web application for Physicians to monitor Patients. Built authentication module to secure backend APIs using Cognito
+                      Oversaw the closure of the project.
                     </li>
                     <li>
-                      Created a chatbot using Amazon Lex that can help patients resolve health queries and connect with physicians. Wrote and reviewed code in 2 languages JavaScript and Python
+                      Supervised the site acceptance tests and reconciliation which are vital for the final bill submission.
                     </li>
                     <li>
                       Represented Vistan Health at the MIT COVID-19 Challenge and the Crisis Challenge Innovation Competition
                     </li>
                   </ul>
-                </li>
-                <li>
+                
                   <Row>
                     <Col md={8}>
-                    <h4 className='text-left'>Software Engineer <span className='company-name'>@Cognizant Technology Solutions</span></h4>
+                    <h4 className='text-left'>PROJECT COORDINATOR </h4>
                     </Col>
                     <Col md={4}>
-                    <div className="text-left text-md-right text-lg-right text-xl-right">January, 2017 - August, 2019</div>
+                    {/* <div className="text-left text-md-right text-lg-right text-xl-right">January, 2017 - August, 2019</div>*/}
                     </Col>
                   </Row>
                   <ul className='text-left'>
                     <li>
-                      Developed automated claim processing tool using Java and Selenium, which expedited processing of claims by 10%
+                      Led the project to completion even with a time and budgetary constrain.
                     </li>
                     <li>
-                      Built a production tool to generate complex queries using VBA to help associates without knowledge in SQL to retrieve details from database on to an Excel sheet
+                      Coordinated the operations of a project employing more than 60 personnel to the satisfaction of the client and end user.
                     </li>
                     <li>
-                      Led the R&D team to find a solution in automating the web-based screens inside windows-based FACETS by integrating Winium and Sikuli to Cognizant’s CRAFT framework to achieve 100% automation
+                     Prepared work schedules and periodically updated the same based of client requirements and other factors.
                       </li>
+                  </ul>
+				  
+					<Row>
+                    <Col md={8}>
+                    <h4 className='text-left'>HR MANAGER </h4>
+                    </Col>
+                    <Col md={4}>
+                    {/*<div className="text-left text-md-right text-lg-right text-xl-right">January, 2017 - August, 2019</div>*/}
+                    </Col>
+                  </Row>
+                  <ul className='text-left'>
+                    <li>
+                      Established and maintained the infrastructure for mobilizing and demobilizing employees as per site requirement.
+                    </li>
+                    <li>
+                     Optimized the onboarding for new employees to reduce time and adapt to the strict no-phones policy at the worksite.
+                    </li>
                   </ul>
                 </li>
 

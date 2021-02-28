@@ -1,6 +1,6 @@
 import React from "react";
 import {Col, Row} from 'react-bootstrap'
-import profile from './../files/Vinay.jpg'
+import profile from './../files/Tom.jpg'
 import './../css/Common.css'
 import './../css/About.css'
 
@@ -12,18 +12,13 @@ class About extends React.Component {
         <Row className='mt-5'>
           <Col md={6} className='text-left order-2 order-md-1 order-lg-1 order-xl-1'>
             <p>
-              Shortly after my Bachelors in Electronics and Communication from Mahatma Gandhi University, I joined
-              Cognizant Technology Solutions as a Software Engineer, where I worked on multiple projects and POCs.
-              Working with highly motivated teams helped me understand project analysis, complete product architecture,
-              and development, and trained me to be adaptive to new technologies.
+              After my Bachelors in Electronics and communication from Kannur University, I joined Anntech Offshore Engineering Pvt. Ltd. as an HR manager, in the Industrial Automation sector. I worked here for more than a year, in different capacities, before starting a company of my own in the same sector. This introduced me to more new experiences like negotiations, account management etc. All these experiences made me want to learn more about business administration and management, which led me to ESCP Business School. 
+After I joined ESCP Business School, I learned more about the basics of management. Being able to relate what I learn to what I had done made the courses more interesting. Moreover, this helped me understand how I could have done better in the past and how I could apply my experiences to new situations. Currently I am looking cross-functional roles that would help me put this knowledge into action.
             </p>
             <p>
-              After getting some experience in the industry, I joined Northeastern University to pursue my Master of
-              Science in Computer Science. As part of my summer internship, I joined Vistan Health as a Software
-              Engineer Intern, where I worked with a team of interns to build a web and mobile application using AWS,
-              React.js, Node.js.
+
             </p>
-            <p>
+            {/*<p>
               Technologies I am working on:
             </p>
             <ul className='row'>
@@ -72,7 +67,7 @@ class About extends React.Component {
               <Col xs={6} sm={6} md={6} lg={4}>
                 <li>Git</li>
               </Col>
-            </ul>
+  </ul>*/}
           </Col>
           <Col md={6} className='order-1 order-md-2 order-lg-2 order-xl-2 my-auto'>
             <img className='photo' src={profile} alt='profile'/>

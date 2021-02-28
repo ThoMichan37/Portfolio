@@ -12,7 +12,7 @@ class Message extends React.Component {
     return (
       <div>
         <div className="mt-3 mb-3 p-0 contact align-content-center">
-          <a href="mailto:srampickaljoseph.v@northeastern.edu" className="link-color mb-2">
+          <a href="mailto:tom.babu@edu.escp.eu" className="link-color mb-2">
             {/*<div className='test'>*/}
             <FontAwesomeIcon icon={faEnvelope} size="2x" className='message-icon mr-2'/>
             <span className='test'>
