@@ -1,12 +1,12 @@
 import React from "react";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
 import './../css/Message.css'
+import EmailIcon from '@material-ui/icons/Email';
+
 class Message extends React.Component {
-  constructor(props) {
-    super(props);
-    this.message = props.message;
-  }
+    constructor(props) {
+        super(props);
+        this.message = props.message;
+    }
 
   render() {
     return (
@@ -14,14 +14,16 @@ class Message extends React.Component {
         <div className="mt-3 mb-3 p-0 contact align-content-center">
           <a href="mailto:tom.babu@edu.escp.eu" className="link-color mb-2">
             {/*<div className='test'>*/}
-            <FontAwesomeIcon icon={faEnvelope} size="2x" className='message-icon mr-2'/>
+                <EmailIcon style={{"fontSize": "37px"}} className='message-icon mr-2'/>
             <span className='test'>
+
             {this.message}
             </span>
-          </a>
-        </div>
-      </div>
-    );
-  }
+                    </a>
+                </div>
+            </div>
+        );
+    }
 }
+
 export default Message;

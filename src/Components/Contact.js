@@ -1,18 +1,19 @@
 import React from 'react';
 import './../css/Contact.css'
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faGithub, faLinkedin} from "@fortawesome/free-brands-svg-icons";
 import Message from "./Message";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import LinkedInIcon from '@material-ui/icons/LinkedIn';
 
 class Contact extends React.Component {
-  render() {
-    return (
-      <div id='contact' className='spacing'>
-        <h1>Contact</h1>
+    render() {
+        return (
+            <div id='contact' className='spacing'>
+                <h1>Contact</h1>
 
         <p className="mt-5 mb-4">I AM CURRENTLY LOOKING FOR FULL-TIME OPPORTUNITIES STARTING MAY 2021. MY INBOX IS ALWAYS OPEN, EVEN FOR JUST A 'HI'.</p>
 
-        <Message message='Message Me' />
+
+                <Message message='Message Me'/>
 
         <p className="mt-5 mb-4">you can connect with me on my social media!</p>
 
@@ -31,7 +32,7 @@ class Contact extends React.Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FontAwesomeIcon icon={faLinkedin} size="2x" className='mr-2'/>
+              <LinkedInIcon style={{"fontSize": "37px"}} className='mr-2'/>
           </a>
 
         </div>
