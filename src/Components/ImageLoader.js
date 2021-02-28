@@ -1,8 +1,8 @@
-import cognizant from "../files/cognizantIcon.ico";
 import vistan from "../files/vistanIcon.png";
+import quantuniversity from "../files/quantuniversityIcon.png";
 
 const GetExperienceImage = {
-    CognizantIcon: cognizant,
     VistanHealthIcon: vistan,
+    QuantUniversityIcon: quantuniversity
 }
 export {GetExperienceImage};
