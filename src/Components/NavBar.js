@@ -2,7 +2,7 @@ import React from 'react';
 import {Navbar, Nav} from "react-bootstrap";
 import logo from "../t.png";
 import './../css/NavBar.css';
-import pdf from '../files/TOM RESUME.docx'
+import pdf from '../files/TOM RESUME.pdf'
 import CloudDownloadIcon from '@material-ui/icons/CloudDownload';
 
 class NavBar extends React.Component {
